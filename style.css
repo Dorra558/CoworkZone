@@ -1,0 +1,265 @@
+body {
+    line-height: 1.4;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.navbar-nav>ul {
+    padding-left: 30px;
+    color: red;
+}
+
+#logo {
+    color: #1abc9c;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#zon {
+    color: rgb(113, 170, 59);
+}
+
+#iconUser {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*#slogon {
+    padding-bottom: 50vh;
+}*/
+
+#slog {
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.carousel-caption>h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    color: #1abc9c;
+}
+
+.btn-warning {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: rgb(113, 170, 59);
+    letter-spacing: 1px;
+    line-height: 33px;
+    border: 2px solid rgb(113, 170, 59);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-warning:hover {
+    color: #FFF;
+    background: rgb(113, 170, 59);
+    border: 2px solid rgb(113, 170, 59);
+}
+
+
+/**********************************Section2********************************************************/
+
+.Contain1 {
+    background-color: rgb(228, 225, 225);
+}
+
+
+/*************************************Section évenements***************************************************************/
+
+
+/**************************************statistiques********************************************************/
+
+
+/*************************Témoignages section*****************************************/
+
+.img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.img-text h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.img-text p {
+    font-size: 14px;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid#fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    background: #000;
+    border-radius: 50%;
+    width: 19px;
+    height: 5px;
+}
+
+.carousel-indicators .active {
+    background: #1abc9c;
+}
+
+
+/****************************************Footer**************************************************/
+
+footer {
+    background-color: #1abc9c;
+    position: absolute;
+    color: rgb(218, 209, 209);
+    width: 100vw;
+}
+
+.social {
+    padding: 0;
+}
+
+.footer h4 {
+    padding: 5px 0px;
+}
+
+.social li {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    padding: 0.3rem;
+}
+
+.social li:hover {
+    background-color: rgb(34, 37, 2);
+    text-decoration: none;
+}
+
+.social li a i:hover {
+    color: white;
+}
+
+.social li a i {
+    color: rgb(53, 52, 52);
+    transition: .3s;
+    font-size: 30px;
+}
+
+.footer .links ul {
+    list-style-type: none;
+}
+
+.footer .links li a {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer .links li a:hover {
+    text-decoration: none;
+    color: rgb(34, 37, 2);
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.footer .copyright p {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px black;
+    border-top: 1px solid rgb(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+}
+
+
+/**************************************Service Coworking*****************************************************************/
+
+.titrcowork {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40px;
+}
+
+
+/**********************Galleries****************************************/
+
+.galery {
+    background-color: white;
+}
+
+.espace:nth-child(even) {
+    margin-top: 45px;
+}
+
+.espace:hover {
+    transform: translateY(-3px);
+    opacity: 0.7;
+}
+
+.imgcowork {
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px #aaaaaa;
+}
+
+
+/***********Cards****************/
+
+.bordr {
+    border-bottom: 1px solid gray;
+}
+
+.bordr1 {
+    border-bottom: 2px solid black;
+}
+
+.buton {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #1abc9c;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+.buton:hover {
+    opacity: 0.7;
+}
+
+
+/*************************************************************************************************/
