@@ -7,6 +7,17 @@ body {
     overflow-y: scroll;
 }
 
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    font-size: 17px;
+}
+
 
 /****************start Nav********************************/
 
@@ -139,8 +150,16 @@ h2 {
     border-radius: 15px;
 }
 
+.contain2 {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /**************************************statistiques********************************************************/
+
+.CONT {
+    background-color: gray;
+}
 
 
 /*************************Témoignages section*****************************************/
@@ -218,6 +237,11 @@ footer {
 
 .footer h4 {
     padding: 5px 0px;
+    font-size: 35px;
+}
+
+.footer p {
+    font-size: 40px;
 }
 
 .social li {
@@ -408,4 +432,18 @@ footer {
     border-radius: 50%;
     margin-bottom: 20px;
     display: inline-block;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 600px;
 }
