@@ -17,12 +17,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@300&family=Oswald:wght@600&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
     <!----------Début Navbar--------------------------->
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
             <a class="navbar-brand" href="index.html">
                 <p id="logo"> Cowork <span id="zon">Zon</span></p>
             </a>
@@ -170,7 +171,7 @@
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="10000">
-                    <img src="imgs/slids/slid1.jpg" class="d-block w-100" alt="slid1">
+                    <img src="imgs/slids/slid1.jpg" class="d-block h-50 w-100" alt="slid1">
                     <div class="carousel-caption d-block" id="slogon">
                         <h1 class="h1-responsive pb-3">Cowork<span id="zon">Zon</span></h1>
                         <h3 id="slog" class="h3-responsive blockquote font-italic pb-3">Working together differently</h3>
@@ -178,7 +179,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-interval="2000">
-                    <img src="imgs/slids/slid2.jpg" class="d-block w-100" alt="slid2">
+                    <img src="imgs/slids/slid2.jpg" class="d-block h-50 w-100" alt="slid2">
                     <div class="carousel-caption d-block" id="slogon">
                         <h1 class="h1-responsive pb-3">Cowork<span id="zon">Zon</span></h1>
                         <h3 id="slog" class="h3-responsive blockquote font-italic pb-3">Working together differently</h3>
@@ -186,7 +187,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imgs/slids/slid3.jpg" class="d-block w-100" alt="slid3">
+                    <img src="imgs/slids/slid3.jpg" class="d-block h-50 w-100" alt="slid3">
                     <div class="carousel-caption d-block" id="slogon">
                         <h1 class="h1-responsive pb-3">Cowork<span id="zon">Zon</span></h1>
                         <h3 id="slog" class="h3-responsive blockquote font-italic pb-3">Working together differently</h3>
@@ -210,26 +211,27 @@
         <div class="container-fluid Contain1 py-5">
 
             <div class="col-md-12 py-5">
-                <h2 class="text-center h2-responsive border-bottom pb-3">POURQUOI ADOPTER LE <b> COWORKING </b></h2>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 content-box wow fadeIn animated" data-wow-delay="0.2s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeIn;">
+                <h2 class="text-center h2-responsive">POURQUOI ADOPTER LE <b> COWORKING </b></h2>
+                <div id="titleborder" class="mx-auto mb-4"></div>
+
+                <div class="row pt-5">
+                    <div class="col-md-4 col-sm-6 content-box wow fadeIn animated icon1 p-2 " data-wow-delay="0.2s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeIn;">
                         <div class="features-icon"><i class="fas fa-network-wired fa-3x pb-3 d-flex justify-content-center"></i></div>
                         <h4 class="features-title h5-responsive text-center">Un réseau de compétences</h5>
                             <p class="text-justify">CoworkZon, c’est un réseau de compétences riches qui complètera votre expérience et aux côtés duquel vous bénéficiez de toute la sérénité utile pour l’atteinte de vos objectifs.</p>
                     </div>
-                    <div class="col-md-4 col-sm-6 content-box mb-30 wow fadeIn animated" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeIn;">
+                    <div class="col-md-4 col-sm-6 content-box mb-30 wow fadeIn animated icon1 p-2" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeIn;">
                         <div class="features-icon"><i class="fas fa-network-wired fa-3x pb-3 d-flex justify-content-center"></i></div>
                         <h4 class="features-title h5-responsive text-center">Liberté</h5>
                             <p class="text-justify">Vous disposez d’un accès autonome aux locaux qui vous sont dédiés afin que vous puissiez en profiter en toute quiétude.</p>
                     </div>
-                    <div class="col-md-4 col-sm-6 content-box mb-30 wow fadeIn animated" data-wow-delay="0.6s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeIn;">
+                    <div class="col-md-4 col-sm-6 content-box mb-30 wow fadeIn animated icon1" data-wow-delay="0.6s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeIn;">
                         <div class="features-icon"><i class="fas fa-map-marked-alt pb-3 d-flex justify-content-center fa-3x"></i></div>
                         <h4 class="features-title h5-responsive text-center">Au coeur de la ville</h5>
                             <p class="text-justify"> Notre localisation est idéale, elle vous évite d’avoir à faire de longs déplacements. Nous vous offrons également un service de domiciliation pour vous faciliter toutes vos formalités administratives.</p>
                     </div>
                 </div>
             </div>
-
 
             <div class="col-md-12 py-3">
                 <div class="row">
@@ -254,30 +256,35 @@
             </div>
         </div>
 
+
         <!---------------------------------Fin Section des icons-------------------------------------------------->
 
 
         <!---------------------------------------Section Evenements-------------------------------------------------->
 
         <div class="container-fluid contain2">
-            <div class="col-md-12 py-5 mx-3">
-                <h1 class="text-center h1-responsive border-bottom pb-4">
+            <div class="col-md-12 py-5 px-3 mx-3">
+                <h1 class="text-center h1-responsive">
                     <a href="evenement.html">Nos événements</a></h1>
+                <div id="titleborder" class="mx-auto mb-4"></div>
                 <div class="row">
+
                     <div class="col-md-3 col-sm-6 col-12 py-3">
                         <div class="card w-100">
-                            <img src="imgs/events/tech.jpg" class="card-img-top" alt="Tech">
+                            <img src="imgs/events/tech.jpg" class="card-img-top" alt="musiques">
                             <div class="card-body">
-                                <h5 class="card-title text-center">Tech</i>
-                                </h5>
+                                <h5 class="card-title text-center">Hackathon SmartCity</h5>
                                 <div class="d-flex justify-content-around">
-                                    <small><i class="fas fa-tags pr-2"></i> <span class="text-muted"> Hackathon SmartCity </span> </p></small>
-                                    <small class="card-text"><i class="fas fa-clock pr-2"></i> <span class="text-muted"> Mer. 11 NOV À Ven. 13 NOV </span> </small>
+                                    <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Tech</span></small>
+                                    <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted">Ven. 20 NOV À Dim. 22 NOV</span></small>
                                 </div>
-                                <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
-                                <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
-                                <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
+                                <small><i class="fas fa-user-friends py-3 px-2"> </i><span  class="text-muted">121 participants.</span></small>
+                                <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020...</p>
+                                <div class="d-flex justify-content-between">
 
+                                    <a href="tech.html" class="px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true"><span class="font-weight-bold">Voir plus</span></a>
+                                    <a href="" class="btn  btn-lg active mt-4" role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -286,15 +293,17 @@
                         <div class="card w-100">
                             <img src="imgs/events/tech.jpg" class="card-img-top" alt="musiques">
                             <div class="card-body">
-                                <h5 class="card-title text-center">Musiques</h5>
+                                <h5 class="card-title text-center">MusicEvent </h5>
                                 <div class="d-flex justify-content-around">
-                                    <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Music Event </span></small>
-                                    <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Jeudi, 20 Novembre à 16:00</span> </small>
+                                    <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Musiques</span></small>
+                                    <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted">20 Novembre à 16:00</span> </small>
                                 </div>
-                                <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
-                                <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
-                                <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
-
+                                <small><i class="fas fa-user-friends py-3 px-2"> </i><span  class="text-muted"> 80 participants.</span></small>
+                                <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true"><span class="font-weight-bold">Voir plus</span></a>
+                                    <a href="" class="btn  btn-lg active mt-4" role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -302,15 +311,17 @@
                         <div class="card w-100">
                             <img src="imgs/events/conf.jpg" class="card-img-top" alt="conférences">
                             <div class="card-body">
-                                <h5 class="card-title text-center">Conférences</h5>
+                                <h5 class="card-title text-center">ProductConf</h5>
                                 <div class="d-flex justify-content-around">
-                                    <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Product Conf</i></span></small>
-                                    <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Lundi, 30 Novembre à 09:00</span> </small>
+                                    <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Conférences</span></small>
+                                    <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted">30 Novembre à 09:00</span> </small>
                                 </div>
-                                <p class="card-text"> ProductCon, est la plus grande série de conférences sur la gestion de produits au monde.</p>
-                                <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
-                                <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
-
+                                <small><i class="fas fa-user-friends py-3 px-2"> </i><span  class="text-muted"> 70 participants.</span></small>
+                                <p class="card-text"> ProductConf, est la plus grande série de conférences sur la gestion de produits au monde...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true"><span class="font-weight-bold">Voir plus</span></a>
+                                    <a href="" class="btn  btn-lg active mt-4" role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -318,15 +329,17 @@
                         <div class="card w-100">
                             <img src="imgs/events/kids.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-center">Enfants</h5>
+                                <h5 class="card-title text-center">WeDraw</h5>
                                 <div class="d-flex justify-content-between">
-                                    <small> <i class="fas fa-tags pr-2"></i><span class="text-muted">We Draw</span></small>
-                                    <small class="card-text"><i class="fas fa-clock pr-2"></i> <span class="text-muted"> Mer. 11 NOV À Ven. 13 NOV</span> </small>
+                                    <i class="fas fa-tags pr-2"></i> <small><span class="text-muted">Enfants</span></small>
+                                    <i class="fas fa-clock pr-2"></i> <small class="card-text"><span class="text-muted">5 Décembre à 10:00</span> </small>
                                 </div>
-                                <p class="card-text"> Exercer vos enfants au dessin et à la peinture, et pour donner libre cours à leurs créativités</p>
-                                <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
-                                <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
-
+                                <i class="fas fa-user-friends py-3 px-2"> </i><small><span class="text-muted"> 100 participants.</span></small>
+                                <p class="card-text"> Exercer vos enfants au dessin et à la peinture, et pour donner libre cours à leurs créativités...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true"><span class="font-weight-bold">Voir plus</span></a>
+                                    <a href="" class="btn  btn-lg active mt-4" role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -336,44 +349,37 @@
 
 
         <!--**********************************Section Statistique*****************************************-->
-        <section>
-            <div class="container-fluid CONT">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-2 m-0  ">
-                        <i class="fas fa-users fa-3x"></i>
+        <section id=valeur class="py-5">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-users fa-4x"></i>
+                        <p class="numbr font-weight-bold pt-4">55</p>
                         <h2 class="h2-responsive pt-3">Coworkers</h2>
                     </div>
-                    <div class="col-md-2 m-0">
-                        <i class="far fa-calendar-alt fa-3x"></i>
-                        <h2 class="h2-responsive pt-3">Agenda</h2>
+                    <div class="col-md-4 text-center">
+                        <i class="far fa-calendar-alt fa-4x"></i>
+                        <p class="numbr font-weight-bold pt-4">180</p>
+                        <h2 class="h2-responsive pt-3">Evénements</h2>
                     </div>
-                    <div class="col-md-2 m-0 fa-3x">
-                        <i class="far fa-handshake"></i>
+                    <div class="col-md-4 text-center">
+                        <i class="far fa-handshake fa-4x"></i>
+                        <p class="numbr font-weight-bold pt-4">15</p>
                         <h2 class="h2-responsive pt-3">Partenaires</h2>
                     </div>
                 </div>
             </div>
         </section>
-        <!--
-        <div class="container">
-            <div class="d-flex justify-content-center mx-auto">
-                <div> <img src="imgs/agenda.png" alt="agenda" class="img-fluid w-25">
-                    <h2 class="h2-responsive pt-3">Agenda</h2>
-                </div>
-                <div><img src="imgs/agenda.png" alt="agenda" class="img-fluid w-25">
-                    <h2 class="h2-responsive pt-3">Agenda</h2>
-                </div>
-                <div> <img src="imgs/partenaires.png" alt="partenaires" class="img-fluid w-50">
-                    <h2 class="h2-responsive pt-3">Partenaires</h2>
-                </div>
-            </div>
-        </div>
-        -->
+
+        <!------------------End section----------------------------->
+
+
         <!----------------------------------Debut Témoignages--------------------------------------------------->
         <div class="container">
             <div class="row">
-                <div class="col-md-12 py-5">
-                    <h1 class="text-center h1-responsive border-bottom pb-4">Témoignages</h1>
+                <div class="col-md-12 py-5 text-center">
+                    <h1 class="text-center h1-responsive ">Témoignages</h1>
+                    <div id="titleborder" class="mx-auto mb-4"></div>
                     <div id="carouselExampleIndicators" class="carousel slide pt-4" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -393,10 +399,10 @@
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <div class="single-box">
-                                            <div class="img-area"><img src="imgs/slids/slid.jpg" alt=""></div>
+                                            <div class="img-area"><img src="imgs/temoignages/rayhane.jpg" alt=""></div>
                                             <div class="img-text">
                                                 <h2>Rayhane Emna Bousnina</h2>
-                                                <p>situé dans un emplecement idéal, pour les réuinions de travail, les formations, etc. L'espace offre une vue panoramique.!</p>
+                                                <p>Situé dans un emplecement idéal, pour les réuinions de travail, les formations, etc. L'espace offre une vue panoramique.!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -461,7 +467,8 @@
                         <div class="col-lg-5 col-12 ">
                             <h4 class="mt-lg-0 mt-sm-3 h4-responive text-center ">CoworkZon</h4> <br>
                             <p class="text-white text-center justify-text" style="font-size: small;">CoworkZon est un espace de coworking qui s’adresse aux entreprises et particuliers recherchant un environnement de travail professionnel et convivial. Toutes nos locations sont clés en main : aucun frais d’aménagement n’est
-                                à prévoir.</h5> <a href="Apropos.html">Lire plus</a></p><br>
+                                à prévoir.</h5>
+                                <a href="Apropos.html">Lire plus</a></p><br>
                             <ul class="social text-center ">
                                 <li>
                                     <a href="# "> <i class="fa fa-facebook face "></i></a>
