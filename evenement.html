@@ -23,7 +23,7 @@
 
     <!----------Début Navbar--------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
         <a class="navbar-brand" href="index.html">
             <p id="logo"> Cowork <span id="zon">Zon</span></p>
         </a>
@@ -32,7 +32,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex justify-content-between ml-auto ">
+            <ul class="navbar-nav BotomBordersOut ml-auto ">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
                 </li>
@@ -62,7 +62,7 @@
             <!------------------------------Début Modal--------------------------------------------------------------------->
 
             <div class="modal fade" id="connexion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog ">
                     <div class="modal-content">
 
                         <div class="modal-header text-center">
@@ -82,73 +82,105 @@
                             <div class="tab-content" id="pills-tabContent">
                                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-connect-tab">
 
+
                                     <!----***************************************Connexion Form********************************************************-->
-                                    <div class="md-form mb-2">
-                                        <input type="email" class="form-control validate" id="inputEmail3" placeholder="Tapez votre adresse email" required>
-                                    </div>
 
-                                    <div class="md-form mb-2">
-                                        <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Saisir mot de passe" required>
-                                        <p class="font-small blue-text d-flex justify-content-center"><a href="#" class="blue-text ml-1"> Mot de passe</a>Oublié?</p>
-                                    </div>
+                                    <form class="needs-validation" novalidate>
+                                        <div class="md-form mb-2">
+                                            <input type="email" class="form-control validate" id="inputEmail3" placeholder="Tapez votre adresse email" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Veuillez entrer votre émail
+                                            </div>
+                                        </div>
+
+                                        <div class="md-form mb-2">
+                                            <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Saisir mot de passe" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                            <p class="font-small blue-text d-flex justify-content-center"><a href="#" class="blue-text ml-1"> Mot de passe</a>Oublié?</p>
+
+                                        </div>
 
 
-                                    <div class="text-center mb-3">
-                                        <button class="btn btn-primary btn-block z-depth-1a">Se connecter</button>
-                                    </div>
+                                        <div class="text-center mb-3">
+                                            <button class="btn btn-primary btn-block z-depth-1a">Se connecter</button>
+                                        </div>
 
-                                    <p class="font-small dark-grey-text d-flex justify-content-center mt-2">Inscrivez vous par:</p>
-                                    <div class="row mx-3 d-flex justify-content-around ">
-                                        <button type="button" class="btn btn-primary z-depth-2"> <i class="fab fa-facebook-f text-center"></i></button>
-                                        <button type="button" class="btn btn-info z-depth-2"> <i class="fab fa-twitter text-center"></i></button>
-                                        <button type="button" class="btn btn-danger z-depth-2"> <i class="fab fa-google-plus-g text-center"></i></button>
-                                    </div>
+                                        <p class="font-small dark-grey-text d-flex justify-content-center mt-2">Inscrivez vous par:</p>
+                                        <div class="row mx-3 d-flex justify-content-around ">
+                                            <button type="button" class="btn btn-primary z-depth-2"> <i class="fab fa-facebook-f text-center"></i></button>
+                                            <button type="button" class="btn btn-info z-depth-2"> <i class="fab fa-twitter text-center"></i></button>
+                                            <button type="button" class="btn btn-danger z-depth-2"> <i class="fab fa-google-plus-g text-center"></i></button>
+                                        </div>
+                                    </form>
                                 </div>
 
                                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-inscrire-tab">
                                     <!---------------------Inscription Form--------------------------------->
-                                    <div class="md-form mb-5">
-                                        <i class="fa fa-user prefix grey-text"></i>
-                                        <input type="text" class="form-control validate" id="Nom" placeholder="Votre Nom" required>
-                                    </div>
+                                    <form class="needs-validation" novalidate>
+                                        <div class="md-form mb-5">
+                                            <i class="fa fa-user prefix grey-text"></i>
+                                            <input type="text" class="form-control validate" id="Nom" placeholder="Votre Nom" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
 
-                                    <div class="md-form mb-5">
-                                        <i class="fa fa-user prefix grey-text"></i>
-                                        <input type="text" class="form-control validate" id="prénom" placeholder="Votre prénom" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <h4 class="col-sm-2 col-form-label">Sexe:</h4><br>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                                            <label class="form-check-label" for="exampleRadios1">
+                                        <div class="md-form mb-5">
+                                            <i class="fa fa-user prefix grey-text"></i>
+                                            <input type="text" class="form-control validate" id="prénom" placeholder="Votre prénom" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <h4 class="col-sm-2 col-form-label">Sexe:</h4><br>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                                <label class="form-check-label" for="exampleRadios1">
                                                                     Homme
                                                                 </label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
-                                            <label class="form-check-label" for="exampleRadios2">
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                                <label class="form-check-label" for="exampleRadios2">
                                                                     Femme
                                                                 </label>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-envelope prefix grey-text"></i>
-                                        <input type="email" class="form-control validate" id="inputEmail3" placeholder="Email Adress" required>
-                                    </div>
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-envelope prefix grey-text"></i>
+                                            <input type="email" class="form-control validate" id="inputEmail3" placeholder="Email Adress" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
 
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-lock prefix grey-text"></i>
-                                        <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Saisir mot de passe" required>
-                                    </div>
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-lock prefix grey-text"></i>
+                                            <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Saisir mot de passe" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
 
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-lock prefix grey-text"></i>
-                                        <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Confirmer mot de passe" required>
-                                    </div>
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-lock prefix grey-text"></i>
+                                            <input type="password" class="form-control was-validated" id="inputPassword3" placeholder="Confirmer mot de passe" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
 
-                                    <div class="modal-footer d-flex justify-content-center">
-                                        <button class="btn btn-primary">S'inscrire</button>
-                                    </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn btn-primary">S'inscrire</button>
+                                        </div>
+                                    </form>
+
                                 </div>
                             </div>
 
@@ -159,17 +191,38 @@
                 </div>
 
             </div>
+        </div>
 
-            <!----------------------------Fin Modal----------------------------------------------------------------->
-
+        <!----------------------------Fin Modal----------------------------------------------------------------->
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+        </script>
     </nav>
 
+    <!---------------------------------Fin Navbar-->
 
 
 
 
     <div class="view" style="background-image: url('imgs/Apropos/apropos.jpeg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 25rem;">
-        <h1 class="h1-responsive titrPropos">Evenements</h1>
+        <h1 class="h1-responsive titrPropos ">Evenements</h1>
         <!-- Mask & flexbox options-->
         <div class="mask rgba-black-light align-items-center">
             <!-- Content -->
@@ -248,6 +301,8 @@
 
     <!-------------------------------------Type Tech-->
     <div class="container-fluid py-5">
+        <h2 class="h1-responsive text-center pt-3 font-weight-bold">Tech</h2>
+        <div id="titleborder" class="mx-auto mb-4"></div>
 
         <div class="row pt-2 mx-3">
             <div class="col-md-4 col-sm-6 col-12 py-3">
@@ -270,11 +325,11 @@
 
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/tech.jpg" class="card-img-top" alt="musiques">
+                    <img src="imgs/events/startup.jpg" class="card-img-top" alt="musiques">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Musiques</h5>
+                        <h5 class="card-title text-center">Tech</h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Music Event </span></small>
+                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">X-Days </span></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Jeudi, 20 Novembre à 16:00</span> </small>
                         </div>
                         <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
@@ -286,11 +341,11 @@
             </div>
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/conf.jpg" class="card-img-top" alt="conférences">
+                    <img src="imgs/events/rebotic.jpg" class="card-img-top" alt="conférences">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Conférences</h5>
+                        <h5 class="card-title text-center">Tech</h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Product Conf</i></span></small>
+                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Rebotics</i></span></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Lundi, 30 Novembre à 09:00</span> </small>
                         </div>
                         <p class="card-text"> ProductCon, est la plus grande série de conférences sur la gestion de produits au monde.</p>
@@ -305,16 +360,16 @@
     <!-------------------------------------Type Musiques-->
     <div class="container-fluid py-5">
         <h2 class="h1-responsive text-center pt-3">Musiques</h2>
-
+        <div id="titleborder" class="mx-auto mb-4"></div>
         <div class="row pt-2 mx-3">
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/tech.jpg" class="card-img-top" alt="Tech">
+                    <img src="imgs/events/music1.png" class="card-img-top" alt="Tech">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Tech</i>
+                        <h5 class="card-title text-center">Musiques</i>
                         </h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i> <span class="text-muted"> Hackathon SmartCity </span> </p></small>
+                            <small><i class="fas fa-tags pr-2"></i> <span class="text-muted"> Kids_Music </span> </p></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i> <span class="text-muted"> Mer. 11 NOV À Ven. 13 NOV </span> </small>
                         </div>
                         <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
@@ -327,11 +382,11 @@
 
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/tech.jpg" class="card-img-top" alt="musiques">
+                    <img src="imgs/events/music2.jpg" class="card-img-top" alt="musiques">
                     <div class="card-body">
                         <h5 class="card-title text-center">Musiques</h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Music Event </span></small>
+                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">El_Malouf </span></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Jeudi, 20 Novembre à 16:00</span> </small>
                         </div>
                         <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
@@ -343,11 +398,11 @@
             </div>
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/conf.jpg" class="card-img-top" alt="conférences">
+                    <img src="imgs/events/music4.jpg" class="card-img-top " alt="conférences">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Conférences</h5>
+                        <h5 class="card-title text-center">Musiques</h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Product Conf</i></span></small>
+                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Jazz</i></span></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Lundi, 30 Novembre à 09:00</span> </small>
                         </div>
                         <p class="card-text"> ProductCon, est la plus grande série de conférences sur la gestion de produits au monde.</p>
@@ -363,21 +418,21 @@
     <!-------------------------------------Type Conférences-->
     <div class="container-fluid py-5">
         <h2 class="h1-responsive text-center pt-3">Conférences</h2>
-
+        <div id="titleborder" class="mx-auto mb-4"></div>
 
 
         <div class="row pt-2 mx-3">
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/tech.jpg" class="card-img-top" alt="Tech">
+                    <img src="imgs/events/conf1.jpg" class="card-img-top" alt="Tech">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Tech</i>
+                        <h5 class="card-title text-center">Conférences</i>
                         </h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i> <span class="text-muted"> Hackathon SmartCity </span> </p></small>
+                            <small><i class="fas fa-tags pr-2"></i> <span class="text-muted"> Ask'Event</span> </p></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i> <span class="text-muted"> Mer. 11 NOV À Ven. 13 NOV </span> </small>
                         </div>
-                        <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
+                        <p class="card-text"> Ask'Event est spécialisée dans l'organisation d'événements en Tunisie: meeting, congrès, salons, team building et incentive...</p>
                         <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
                         <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
 
@@ -387,14 +442,14 @@
 
             <div class="col-md-4 col-sm-6 col-12 py-3">
                 <div class="card w-100">
-                    <img src="imgs/events/tech.jpg" class="card-img-top" alt="musiques">
+                    <img src="imgs/events/conf2.jpg" class="card-img-top" alt="musiques">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Musiques</h5>
+                        <h5 class="card-title text-center">Conférences</h5>
                         <div class="d-flex justify-content-around">
-                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">Music Event </span></small>
+                            <small><i class="fas fa-tags pr-2"></i><span class="text-muted">SETIT </span></small>
                             <small class="card-text"><i class="fas fa-clock pr-2"></i><span class="text-muted"> Jeudi, 20 Novembre à 16:00</span> </small>
                         </div>
-                        <p class="card-text"> Smart City, une édition innovante one-shot qui se déroule en ligne du 11 au 13 Novembre 2020.</p>
+                        <p class="card-text"> Il vise à rassembler des chercheurs et des développeurs du milieu universitaire et de l'industrie pour rendre compte des dernières..</p>
                         <a href="#" class="btn btn-lg active px-4 mr-5 mt-4 btnCard " role="button" aria-pressed="true">Voir Plus</a>
                         <a href="" class="btn  btn-lg active mt-4 " role="button" aria-pressed="true"> <i class="fas fa-share "></i></a>
 

@@ -199,7 +199,7 @@ h2 {
 }
 
 .iconn {
-    color: #3f8072;
+    color: #1abc9c;
 }
 
 .iconn:hover {
@@ -224,7 +224,7 @@ h2 {
     text-align: center;
     cursor: pointer;
     font-size: 20px;
-    width: 100%;
+    width: 60%;
 }
 
 .contain2 .card a {
@@ -323,8 +323,8 @@ h2 {
 .carousel-indicators li {
     background: #000;
     border-radius: 50%;
-    width: 19px;
-    height: 5px;
+    width: 15rem;
+    height: 5rem;
 }
 
 .carousel-indicators .active {
